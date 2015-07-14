@@ -1,26 +1,45 @@
-<ul>
-	<li><a href="index.html">Home</a></li>
-	<li><a href="#projects">Projects</a></li>
-	<ul>
-		<li><a href="weddingwebsite/">Wedding Website</a></li>
-		<li><a href="index.html">Google Finance Overhaul</a></li>
-		<li><a href="index.html">Photographic Timeline</a></li>
-	</ul>
-	<li><a href="#Updates">Updates</a></li>
-	<li><a href="#Resume">Resume</a></li>
-	<li><a href="#Contact">Contact</a></li>
-</ul>
-<a name="Home"><h2>Home</h2></a>
+<head>
+  	<title>Kevan Mah's Personal Website</title>
+	<!-- Stylesheets-->
+	<link type="text/css" rel="stylesheet" media="all" href="css/default.css" />
+</head>
+<div id="menu">
+	<nav id="primary_nav_wrap">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#projects">Projects</a>
+			<ul>
+				<li><a href="weddingwebsite/">Wedding Website</a></li>
+				<li><a href="index.html">Google Finance Overhaul</a></li>
+				<li><a href="index.html">Photographic Timeline</a></li>
+			</ul>
+			<li><a href="#updates">Updates</a></li>
+			<li><a href="#resume">Resume</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+</div>
+<a id="home" class="anchor"></a><h2>Home</h2>
 This is the personal webpage of me, Kevan Mah. I'm using this website to brush up on basic web design (HTML, CSS, Javascript) and product design.
 <br>
 My SourceCode can be found on <a href="https://github.com/navek8">GitHub</a>.
 <br>
 I'll try to include updates on here as progress is made.
 <br>
-<a name="Projects"><h2>Projects</h2></a>
+<a id="projects" class="anchor"></a><h2>Projects</h2>
 <br>
-<a name="Updates"><h2>Updates</h2></a>
-<h3>Sunday July 12th, 2015<br></h3>
+<a id="updates" class="anchor"></a><h2>Updates</h2>
+
+<h3>Monday July 13th, 2015</h3>
+This is what I have done today:<br>
+<ul>
+	<li>Figured out how to create a fixed navbar in CSS. The tutorial I used is <a href="http://sixrevisions.com/css/fixed-navigation-bar/">here</a>.</li>
+	<li>Next I want to figure out how to make a dropdown menu for the Projects menu item.</li>
+	<li>Ok, so this was easy. I found a code example that I could borrow <a href="http://codepen.io/philhoyt/pen/ujHzd">here</a>. A little too easy. I had to combine the above examples so I could make the menu stay fixed to the top of the screen and play with the style of the menu items to get it to a fixed width and make it look a little better, but I'm happy with the functionality.</li>
+	<li>I spoke a little too soon. I had a really hard time centering this on the top of the page. To solve, I had to make a menu div as a container, and center the nav menu inside that container. I tried doing it all in one step but that wasn't really working when I wanted to menu background to expand to 100% of the page width. It's still not perfect as the menu items are a variable width, and I had to give the nav menu a fixed widht of 500px which is about the sum of all the current menu items. This can be a little ugly if I decide to add/remove menu items and then have to reset that width. I'll try to clean this up to make the width of the nav a variable that is equal to the sum of its inherent elements.</li>
+	<li>After adding that fixed header, it screwed up my anchor links on the page. I had to add a new anchor class to those anchors that offset the page by the height of my fixed nav bar (32px)</li>
+</ul>
+<h3>Sunday July 12th, 2015</h3>
 <p>
 This is what I have done today:<br>
 <ul>
@@ -33,9 +52,13 @@ This is what I have done today:<br>
 </p>
 <!--Sticking a bunch of space here to make sure the anchor links work-->
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<a name="Resume"><h2>Resume</h2></a>
+<a id="resume" class="anchor"></a><h2>Resume</h2>
 <!--Sticking a bunch of space here to make sure the anchor links work-->
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<a name="Contact"><h2>Contact</h2></a>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<a id="contact" class="anchor"></a><h2>Contact</h2>
 <!--Sticking a bunch of space here to make sure the anchor links work-->
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
