@@ -1,8 +1,12 @@
+<html>
 <head>
   	<title>Kevan Mah's Personal Website</title>
 	<!-- Stylesheets-->
+	<link type="text/css" rel="stylesheet" media="all" href="css/bootstrap.min.css" />
 	<link type="text/css" rel="stylesheet" media="all" href="css/default.css" />
 </head>
+<body>
+
 <div id="menu">
 	<nav id="primary_nav_wrap">
 		<ul>
@@ -19,46 +23,59 @@
 		</ul>
 	</nav>
 </div>
-<a id="home" class="anchor"></a><h2>Home</h2>
-This is the personal webpage of me, Kevan Mah. I'm using this website to brush up on basic web design (HTML, CSS, Javascript) and product design.
-<br>
-My SourceCode can be found on <a href="https://github.com/navek8">GitHub</a>.
-<br>
-I'll try to include updates on here as progress is made.
-<br>
-<a id="projects" class="anchor"></a><h2>Projects</h2>
-<br>
-<a id="updates" class="anchor"></a><h2>Updates</h2>
 
-<h3>Monday July 13th, 2015</h3>
-This is what I have done today:<br>
-<ul>
-	<li>Figured out how to create a fixed navbar in CSS. The tutorial I used is <a href="http://sixrevisions.com/css/fixed-navigation-bar/">here</a>.</li>
-	<li>Next I want to figure out how to make a dropdown menu for the Projects menu item.</li>
-	<li>Ok, so this was easy. I found a code example that I could borrow <a href="http://codepen.io/philhoyt/pen/ujHzd">here</a>. A little too easy. I had to combine the above examples so I could make the menu stay fixed to the top of the screen and play with the style of the menu items to get it to a fixed width and make it look a little better, but I'm happy with the functionality.</li>
-	<li>I spoke a little too soon. I had a really hard time centering this on the top of the page. To solve, I had to make a menu div as a container, and center the nav menu inside that container. I tried doing it all in one step but that wasn't really working when I wanted to menu background to expand to 100% of the page width. It's still not perfect as the menu items are a variable width, and I had to give the nav menu a fixed widht of 500px which is about the sum of all the current menu items. This can be a little ugly if I decide to add/remove menu items and then have to reset that width. I'll try to clean this up to make the width of the nav a variable that is equal to the sum of its inherent elements.</li>
-	<li>After adding that fixed header, it screwed up my anchor links on the page. I had to add a new anchor class to those anchors that offset the page by the height of my fixed nav bar (32px)</li>
-</ul>
-<h3>Sunday July 12th, 2015</h3>
-<p>
-This is what I have done today:<br>
-<ul>
-	<li>Setup and Amazon EC2 server with a basic LAMP setup (Linux, Apache, MySQL, PHP)</li>
-	<li>Got the domain name (kevanmah.com) to point to the new EC2 server</li>
-	<li>Setup GitHub repository using the Windows GitHub desktop client. One of these days I'll switch over to a mac or some *nix device and get more cozy with Git and command line stuff.</li>
-	<li>Imported the <a href="weddingwebsite/">wedding website.</a>
-	<li>Created this basic landing page by handwriting some html old-school. Next step, get fancy with some CSS and make this site look nice.
-</ul>
-</p>
-<!--Sticking a bunch of space here to make sure the anchor links work-->
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<a id="resume" class="anchor"></a><h2>Resume</h2>
-<!--Sticking a bunch of space here to make sure the anchor links work-->
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<a id="contact" class="anchor"></a><h2>Contact</h2>
-<!--Sticking a bunch of space here to make sure the anchor links work-->
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="background-grey">
+	<div id="home" class="container"><h2>Home</h2>
+		This is the personal webpage of me, Kevan Mah. I'm using this website to brush up on basic web design (HTML, CSS, Javascript) and product design.
+		<br>
+		My SourceCode can be found on <a href="https://github.com/navek8">GitHub</a>.
+		<br>
+		I'll try to include updates on here as progress is made.
+		<br>
+	</div>
+</div>
+
+<div id="projects" class="container"><h2>Projects</h2>
+	Here are some projects I've worked on.
+</div>
+<div class="background-grey">
+	<div id="updates" class="container"><h2>Updates</h2>
+		<h3>Sunday July 26th, 2015</h3>
+		It's been a while since I've had a change to work on this but this is what I have done today:<br>
+		<ul>
+			<li>Added in <a href="http://getbootstrap.com/css/">bootstrap.css</a>. It's a pretty nice CSS framework that just seemed to make everything look nicer/easier. Seems to make the page load nicer in mobile as well. </li>
+			<li>Started playing around with some containers to frame the page better, center the content so it fits on a 1280px wide resolution screen well. The containers seem to work great thus far.</li>
+			<li>Started playing with a few style elements, made the font open-sans, playing with colors. I will try to start making the page look nicer soon.</li>
+		</ul>
+		<h3>Monday July 13th, 2015</h3>
+		This is what I have done today:<br>
+		<ul>
+			<li>Figured out how to create a fixed navbar in CSS. The tutorial I used is <a href="http://sixrevisions.com/css/fixed-navigation-bar/">here</a>.</li>
+			<li>Next I want to figure out how to make a dropdown menu for the Projects menu item.</li>
+			<li>Ok, so this was easy. I found a code example that I could borrow <a href="http://codepen.io/philhoyt/pen/ujHzd">here</a>. A little too easy. I had to combine the above examples so I could make the menu stay fixed to the top of the screen and play with the style of the menu items to get it to a fixed width and make it look a little better, but I'm happy with the functionality.</li>
+			<li>I spoke a little too soon. I had a really hard time centering this on the top of the page. To solve, I had to make a menu div as a container, and center the nav menu inside that container. I tried doing it all in one step but that wasn't really working when I wanted to menu background to expand to 100% of the page width. It's still not perfect as the menu items are a variable width, and I had to give the nav menu a fixed widht of 500px which is about the sum of all the current menu items. This can be a little ugly if I decide to add/remove menu items and then have to reset that width. I'll try to clean this up to make the width of the nav a variable that is equal to the sum of its inherent elements.</li>
+			<li>After adding that fixed header, it screwed up my anchor links on the page. I had to add a new anchor class to those anchors that offset the page by the height of my fixed nav bar (32px)</li>
+		</ul>
+		<h3>Sunday July 12th, 2015</h3>
+		<p>
+		This is what I have done today:<br>
+		<ul>
+			<li>Setup and Amazon EC2 server with a basic LAMP setup (Linux, Apache, MySQL, PHP)</li>
+			<li>Got the domain name (kevanmah.com) to point to the new EC2 server</li>
+			<li>Setup GitHub repository using the Windows GitHub desktop client. One of these days I'll switch over to a mac or some *nix device and get more cozy with Git and command line stuff.</li>
+			<li>Imported the <a href="weddingwebsite/">wedding website.</a>
+			<li>Created this basic landing page by handwriting some html old-school. Next step, get fancy with some CSS and make this site look nice.
+		</ul>
+		</p>
+	</div>
+</div>
+<div id="resume"  class="container"><h2>Resume</h2>
+	Here is my resume.
+</div>
+<div class="background-grey">
+	<div id="contact" class="container"><h2>Contact</h2>
+		Contact Info.	
+	</div>
+</div>
+</body>
+</html>
