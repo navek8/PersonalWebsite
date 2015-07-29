@@ -5,29 +5,23 @@
 	<link type="text/css" rel="stylesheet" media="all" href="css/bootstrap.min.css" />
 	<link type="text/css" rel="stylesheet" media="all" href="css/default.css" />
 	<link href="css/jquery-ui.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 </head>
-<body>
-
-<div id="menu">
-	<nav id="primary_nav_wrap">
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="#projects">Projects</a>
-			<ul>
-				<li><a href="weddingwebsite/">Wedding Website</a></li>
-				<li><a href="index.html">Google Finance Overhaul</a></li>
-				<li><a href="index.html">Photographic Timeline</a></li>
-			</ul>
-			<li><a href="#updates">Updates</a></li>
-			<li><a href="#resume">Resume</a></li>
-			<li><a href="#contact">Contact</a></li>
-		</ul>
-	</nav>
-</div>
-
+<body data-spy="scroll" data-target="#navbar-example" class="fixed">
+<nav class="navbar navbar-default" id="navbar-example" role="navigation">
+	<ul class="nav navbar-nav">
+		<li class="active"><a href="#home">Home</a></li>
+		<li><a href="#projects">Projects</a></li>
+		<li><a href="#updates">Updates</a></li>
+		<li><a href="#resume">Resume</a></li>
+		<li><a href="#contact">Contact</a></li>
+	</ul>
+</nav>
 <div class="background-grey">
-	<div id="home" class="container"><h2>Home</h2>
+	<div id="home" class="container">
+		<h2>Home</h2>
 		This is the personal webpage of me, Kevan Mah. I'm using this website to brush up on basic web design (HTML, CSS, Javascript) and product design. I don't have a lot of time to work on this, but I try to complete a manageable chunk every now and then when I have an hour or two to spare.
 		<br>
 		My SourceCode can be found on <a href="https://github.com/navek8">GitHub</a>.
@@ -43,6 +37,13 @@
 <div class="background-grey">
 	<div id="updates" class="container"><h2>Updates</h2>
 	<div id="accordion">
+		<h3>Tuesday July 28th, 2015</h3>
+		<div>
+			This is what I have done today:<br>
+			<ul>
+				<li>Had more fun with jQuery today. I updated the nav menu to make it fixed on the page in the top right and implemented ScrollSpy so that the navbar highlights/follows you around. <a href="http://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp">This</a> is a great tutorial for anyone else interested in it.</li>
+			</ul>
+		</div>
 		<h3>Monday July 27th, 2015</h3>
 		<div>
 			This is what I have done today:<br>
@@ -93,9 +94,10 @@
 <div class="background-grey">
 	<div id="contact" class="container"><h2>Contact</h2>
 		Contact Info.	
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 	</div>
 </div>
-<script src="external/jquery/jquery.js"></script>
+<script src="scripts.js"></script>
 <script src="jquery-ui.js"></script>
 <script>
 $( "#accordion" ).accordion({

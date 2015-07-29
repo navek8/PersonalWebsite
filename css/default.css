@@ -27,94 +27,15 @@ a.anchor{
 
 /* Navigation */
 
-#menu
-{
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 9999;
-	width: 100%;
-	background-color: #696969;
-	height:32px;
+.navbar  { border: 0px; background-color: #222222; position: fixed; top: 50; right: 5%; width: 90px; z-index: 9999; }
+.navbar .navbar-collapse { padding: 0px; max-height: none; }
+.navbar .navbar-nav { float: none; }
+.navbar-nav { margin: 0px; }
+.navbar .nav > li { display: block; float: none; height: 60px; } 
+.navbar .nav > li a { display: block;  height: 60px; text-align: center; padding-top: 20px; font-weight: 600; color: #FFFFFF; }
+.navbar .nav > li a:hover, .navbar .nav > li a:focus { color: #999999; }
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background: #ABCABC; color: #FFFFFF; }
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar { background: #222222; }
 
-}
-#primary_nav_wrap
-{
-	width:500px;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-#primary_nav_wrap ul
-{
-	list-style:none;
-	position:relative;
-	float:left;
-	margin-right: auto;
-	margin-left: auto;
-	padding:0;
-}
-
-#primary_nav_wrap ul a
-{
-	display:block;
-	color:#000;
-	text-decoration:none;
-	font-size:16px;
-	line-height:32px;
-	padding:0 15px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-}
-
-#primary_nav_wrap ul li
-{
-	position:relative;
-	float:left;
-	margin:0;
-	padding:0
-}
-
-#primary_nav_wrap ul li.current-menu-item
-{
-	background:#ddd
-}
-
-#primary_nav_wrap ul li:hover
-{
-	background:#ffffff;
-}
-
-#primary_nav_wrap ul ul
-{
-	display:none;
-	position:absolute;
-	top:100%;
-	left:0;
-	background:#e6e6e6;
-	padding:0;
-
-}
-
-#primary_nav_wrap ul ul li
-{
-	float:none;
-	width:200px
-}
-
-#primary_nav_wrap ul ul a
-{
-	line-height:120%;
-	padding:10px 15px
-}
-
-#primary_nav_wrap ul ul ul
-{
-	top:0;
-	left:100%
-}
-
-#primary_nav_wrap ul li:hover > ul
-{
-	display:block
-}
+.fixed .navbar  { position: fixed; top: 60px; }
