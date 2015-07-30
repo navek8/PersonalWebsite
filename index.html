@@ -1,9 +1,10 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
   	<title>Kevan Mah's Personal Website</title>
 	<!-- Stylesheets-->
 	<link type="text/css" rel="stylesheet" media="all" href="css/bootstrap.min.css" />
-	<link type="text/css" rel="stylesheet" media="all" href="css/default.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/style.css" />
 	<link href="css/jquery-ui.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -12,15 +13,15 @@
 <body data-spy="scroll" data-target="#navbar-example" class="fixed">
 <nav class="navbar navbar-default" id="navbar-example" role="navigation">
 	<ul class="nav navbar-nav">
-		<li class="active"><a href="#home">Home</a></li>
+		<li class="active"><a href="index.html">Home</a></li>
 		<li><a href="#projects">Projects</a></li>
 		<li><a href="#updates">Updates</a></li>
 		<li><a href="#resume">Resume</a></li>
 		<li><a href="#contact">Contact</a></li>
 	</ul>
 </nav>
-<div class="background-grey">
-	<div id="home" class="container">
+<div class="jumbotron" data-position="center center" style="height: 1024px;">
+	<div class="container">
 		<h2>Home</h2>
 		This is the personal webpage of me, Kevan Mah. I'm using this website to brush up on basic web design (HTML, CSS, Javascript) and product design. I don't have a lot of time to work on this, but I try to complete a manageable chunk every now and then when I have an hour or two to spare.
 		<br>
@@ -29,7 +30,9 @@
 		I'll try to include updates on here as progress is made.
 		<br>
 	</div>
+	<div class="overlay"></div>
 </div>
+
 
 <div id="projects" class="container"><h2>Projects</h2>
 	Here are some projects I've worked on.
@@ -37,11 +40,18 @@
 <div class="background-grey">
 	<div id="updates" class="container"><h2>Updates</h2>
 	<div id="accordion">
+		<h3>Wednesday July 29th, 2015</h3>
+		<div>
+			This is what I have done today:<br>
+			<ul>
+				<li>I put in a cool home background of the Golden Gate bridge in San Francisco. I had no idea how tricky backgrounds could be. I managed to get a cool features in there with some javascript that resizes it to the browser width/height but it's still not exactly how I want it. I can't believe how much time I spent getting a single picture to appear correctly. Hopefully this goes smoother for the next one! For others that are stuck, I used the <a href="http://www.w3schools.com/bootstrap/bootstrap_jumbotron_header.asp">boot strap jumbotron</a> background image feature and some tips from <a href="http://stackoverflow.com/questions/22000754/responsive-bootstrap-jumbotron-background-image">stackoverflow.</a> </li>
+			</ul>
+		</div>
 		<h3>Tuesday July 28th, 2015</h3>
 		<div>
 			This is what I have done today:<br>
 			<ul>
-				<li>Had more fun with jQuery today. I updated the nav menu to make it fixed on the page in the top right and implemented ScrollSpy so that the navbar highlights/follows you around. <a href="http://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp">This</a> is a great tutorial for anyone else interested in it.</li>
+				<li>Had more fun with jQuery and bootstrap today. I updated the nav menu to make it fixed on the page in the top right and implemented ScrollSpy so that the navbar highlights/follows you around. <a href="http://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp">This</a> is a great tutorial for anyone else interested in it.</li>
 			</ul>
 		</div>
 		<h3>Monday July 27th, 2015</h3>

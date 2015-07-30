@@ -10,13 +10,6 @@ h3 { font-size: 28px; }
 
 .background-white { background: #FFFFFF; }
 .background-grey { background: #DDDDDD; }
-1814c7
-a.anchor{
-	display: block;
-	position: relative; 
-	top: -32px; 
-	visibility: hidden;
-}
 
 .container{
 	max-width: 1280px;
@@ -39,3 +32,18 @@ a.anchor{
 .navbar-default .navbar-toggle:focus .icon-bar { background: #222222; }
 
 .fixed .navbar  { position: fixed; top: 60px; }
+
+/* Jumbotron */
+.jumbotron { 
+  background: url(../images/background2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.jumbotron .overlay { background-color: #222222; position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; opacity: 0.55; filter:alpha(opacity=75); z-index: 2; }
+.jumbotron .container { position: relative; top: 28%; z-index: 4; text-align: center; color:#FFFFFF;}
+.jumbotron .container * { text-align: center; color: #FFFFFF; }
+.jumbotron .container h1 { padding-bottom: 20px; border-bottom: 1px solid #FFFFFF; border-bottom-color: rgba(255,255,255,0.35); display: inline-block; }
+.jumbotron .container a { color: #DDDDDD;}
+.jumbotron .container .lead { font-size: 28px; }
