@@ -10,8 +10,6 @@ $(document).ready(function()
 function applyHeader()
 {
 	$('.jumbotron').css({ height: ($(window).height()) +'px' });
-	
-	lazyLoad($('.jumbotron'));
 }	
 
 function applyResize()
