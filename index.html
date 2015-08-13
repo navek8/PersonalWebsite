@@ -8,6 +8,15 @@
 	<link href="css/jquery-ui.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-48895318-1', 'auto');
+		  ga('send', 'pageview');
+</script>
 
 </head>
 <body data-spy="scroll" data-target="#navbar-example" class="fixed">
@@ -35,35 +44,54 @@
 
 
 <div id="projects" class="container"><h2>Projects</h2>
-	Here are some projects I've worked on.
+	<ul class="img-list">
+		<li>
+			<a href="weddingwebsite/"><img src="images/wedding_preview.png"><span class="text-content"><span>Wedding Website</span></span></a>
+		</li>
+		<li>
+			<a href="/"><img src="images/empty_project.png"><span class="text-content"><span>Google Finance Overhaul</span></span></a>
+		</li>	
+	</ul>
+	<ul class="img-list">
+		<li>
+			<a href="/"><img src="images/empty_project.png"><span class="text-content"><span>Photographic Timeline</span></span></a>
+		</li>
+		<li>
+			<a href="/"><img src="images/empty_project.png"><span class="text-content"><span>Something Else Cool</span></span></a>
+		</li>	
+	</ul>	
+
 </div>
 <div class="background-grey">
 	<div id="updates" class="container"><h2>Updates</h2>
 	<div id="accordion">
+		<h3>Wednesday August 12th, 2015</h3>
+		<div>
+			<ul>
+				<li>I updated the projects section with a link to the <a href="weddingwebsite/">website I built for my wedding</a>.</li>
+				<li>I found this <a href="http://geekgirllife.com/place-text-over-images-on-hover-without-javascript/">awesome tutorial</a> on how to make awesome hover effects.</li>
+			</ul>
+		</div>
 		<h3>Thursday July 30th, 2015</h3>
 		<div>
-			This is what I have done today:<br>
 			<ul>
 				<li>I didn't accompish much today. I did some quick bug fixes on how the image appears and then scaled down the image size from 1.6MB -> 262KB to help the page load faster. The image quality didn't need to be so high, especially since I have the grey CSS overlay on top of it.</li>
 			</ul>
 		</div>
 		<h3>Wednesday July 29th, 2015</h3>
 		<div>
-			This is what I have done today:<br>
 			<ul>
 				<li>I put in a cool home background of the Golden Gate bridge in San Francisco. I had no idea how tricky backgrounds could be. I managed to get a cool features in there with some javascript that resizes it to the browser width/height but it's still not exactly how I want it. I can't believe how much time I spent getting a single picture to appear correctly. Hopefully this goes smoother for the next one! For others that are stuck, I used the <a href="http://www.w3schools.com/bootstrap/bootstrap_jumbotron_header.asp">boot strap jumbotron</a> background image feature and some tips from <a href="http://stackoverflow.com/questions/22000754/responsive-bootstrap-jumbotron-background-image">stackoverflow.</a> </li>
 			</ul>
 		</div>
 		<h3>Tuesday July 28th, 2015</h3>
 		<div>
-			This is what I have done today:<br>
 			<ul>
 				<li>Had more fun with jQuery and bootstrap today. I updated the nav menu to make it fixed on the page in the top right and implemented ScrollSpy so that the navbar highlights/follows you around. <a href="http://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp">This</a> is a great tutorial for anyone else interested in it.</li>
 			</ul>
 		</div>
 		<h3>Monday July 27th, 2015</h3>
 		<div>
-			This is what I have done today:<br>
 			<ul>
 				<li>Started playing around with <a href="http://jqueryui.com/">jQueryUI</a>. So far, it's pretty awesome.</li>
 				<li>Decided to use the <a href="http://jqueryui.com/accordion/">accordion widget</a> for the updates so this list of updates doesn't get huge.</li>
@@ -73,7 +101,6 @@
 		</div>
 		<h3>Sunday July 26th, 2015</h3>
 		<div>
-			It's been a while since I've had a chance to work on this but this is what I have done today:<br>
 			<ul>
 				<li>Added in <a href="http://getbootstrap.com/css/">bootstrap.css</a>. It's a pretty nice CSS framework that just seemed to make everything look nicer/easier. Seems to make the page load nicer in mobile as well. </li>
 				<li>Started playing around with some containers to frame the page better, centered the content so it fits on a 1280px wide resolution screen well. The containers seem to work great so far.</li>
@@ -82,7 +109,6 @@
 		</div>
 		<h3>Monday July 13th, 2015</h3>
 		<div>
-			This is what I have done today:<br>
 			<ul>
 				<li>Figured out how to create a fixed navbar in CSS. The tutorial I used is <a href="http://sixrevisions.com/css/fixed-navigation-bar/">here</a>.</li>
 				<li>Next I want to figure out how to make a dropdown menu for the Projects menu item.</li>
@@ -93,7 +119,6 @@
 		</div>
 		<h3>Sunday July 12th, 2015</h3>
 		<div>
-			This is what I have done today:<br>
 			<ul>
 				<li>Setup and Amazon EC2 server with a basic LAMP setup (Linux, Apache, MySQL, PHP)</li>
 				<li>Got the domain name (kevanmah.com) to point to the new EC2 server</li>
