@@ -13,9 +13,24 @@ h3 { font-size: 28px; }
 
 .container{
 	max-width: 1280px;
-	padding: 30px 150px;
+	padding: 30px 100px;
 	margin-right: auto;
 	margin-left: auto;
+}
+.container-contact1{
+  width: 800px;
+  padding: 10px 10px;
+  margin-right: auto;
+  margin-left: auto;
+  float: left;
+}
+.container-contact2{
+  max-width: 320px;
+  padding: 10px 10px;
+  margin-right: auto;
+  margin-left: auto;
+  display: inline;
+  float: right;
 }
 
 ul.img-list {

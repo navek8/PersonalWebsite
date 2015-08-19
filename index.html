@@ -31,7 +31,6 @@
 </nav>
 <div id="top" class="jumbotron" data-position="center center" style="height: 1024px;">
 	<div class="container">
-		<img src="images/me.png">
 		<p>
 			This is the personal webpage of me, Kevan Mah. I'm using this website to brush up on basic web design (HTML, CSS, Javascript) and product design. I don't have a lot of time to work on this, but I try to complete a manageable chunk every now and then when I have an hour or two to spare.
 			<br>
@@ -67,6 +66,14 @@
 <div class="background-grey">
 	<div id="updates" class="container"><h2>Updates</h2>
 	<div id="accordion">
+		<h3>Tuesday August 18th, 2015</h3>
+		<div>
+			<ul>
+				<li>I added a simple <a href="#contact">contact form</a>. Originally I had planned on writing my own with a simple PHP form but my first iteration of that seemed so susceptible to spam and other junk. Rather than build out all the error checking and use cases, I found <a href="http://www.wufoo.com">these guys</a> who make forms very easy to use and simple to integrate. It was a little annoying to have to work through their theme builder and GUI to get the form to look the way I want, but I see they do have some advanced customization if you really want to get into that. In the end, I'm happy with how it looks.</a>.</li>
+				<li>There is a bug in the form that makes the page refresh up to the top when you submit. I'll try to debug it in my next session.</li>
+
+			</ul>
+		</div>
 		<h3>Wednesday August 12th, 2015</h3>
 		<div>
 			<ul>
@@ -137,13 +144,38 @@
 </div>
 <div class="background-grey">
 	<div id="contact" class="container"><h2>Contact</h2>
-		<a href="https://www.linkedin.com/pub/kevan-mah/12/80b/33">
-            <img src="images/linkedin.png" border="0" alt="View Kevan Mah's profile on LinkedIn">
-        </a>
-        <a href="https://github.com/navek8">
-            <img src="images/github.png" border="0" alt="View Kevan Mah's profile on GitHub">
-        </a>	
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<div id="contact" class="container-contact1">
+	        <!-- Wufoo Contact Form -->
+			<div id="wufoo-m1u0pm2b0v13hyb">
+			Fill out my <a href="https://kevanmah.wufoo.com/forms/m1u0pm2b0v13hyb">online form</a>.
+			</div>
+			<script type="text/javascript">var m1u0pm2b0v13hyb;(function(d, t) {
+			var s = d.createElement(t), options = {
+			'userName':'kevanmah',
+			'formHash':'m1u0pm2b0v13hyb',
+			'autoResize':true,
+			'height':'440',
+			'async':true,
+			'host':'wufoo.com',
+			'header':'hide',
+			'ssl':true};
+			s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+			s.onload = s.onreadystatechange = function() {
+			var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+			try { m1u0pm2b0v13hyb = new WufooForm();m1u0pm2b0v13hyb.initialize(options);m1u0pm2b0v13hyb.display(); } catch (e) {}};
+			var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+			})(document, 'script');</script>
+			<!-- Wufoo Contact Form -->
+		</div>
+		<div id="contact" class="container-contact2">
+			<a href="https://www.linkedin.com/pub/kevan-mah/12/80b/33">
+	            <img src="images/linkedin.png" border="0" alt="View Kevan Mah's profile on LinkedIn">
+	        </a>
+	        <br>
+	        <a href="https://github.com/navek8">
+	            <img src="images/github.png" border="0" alt="View Kevan Mah's profile on GitHub">
+	        </a>
+	    </div>
 	</div>
 </div>
 <script src="scripts.js"></script>
