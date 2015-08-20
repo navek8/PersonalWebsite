@@ -2,7 +2,7 @@
 html, body { color: #434242; font-family: 'Open Sans', sans-serif !important; height: 100%; }
 body { background: #FFFFFF; font-size: 15px; line-height: 1.64; }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { font-family: 'Open Sans', sans-serif !important; margin-bottom: 20px; }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { font-family: 'Open Sans', sans-serif !important;}
 h1,h4 { font-weight: 700; margin-bottom: 10px; }
 h2,h3 { font-weight: 300; color: #3163f4; }
 h2 { font-size: 54px; text-align: center; }
@@ -16,6 +16,15 @@ h3 { font-size: 28px; }
 	padding: 30px 100px;
 	margin-right: auto;
 	margin-left: auto;
+}
+.container-resume{
+  max-width: 1280px;
+  min-height: 500px;
+  padding: 30px 30px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  position: relative;
 }
 .container-contact1{
   width: 800px;
@@ -75,6 +84,49 @@ span.text-content span {
   text-align: center;
   vertical-align: middle;
 }
+
+/* Resume */
+.r-name {
+text-align: left;
+display: inline;
+font-size: 24px;
+padding-left:55px;
+}
+div.r-profile:before {
+  content:url(../images/resume-profile.png);
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.r-subtitle {
+  display:block;
+  padding-left:55px;
+}
+.r-location {
+  position: absolute;
+  top: 55px;
+  right: 30px;
+  text-align:right;
+}
+hr {
+    display: block;
+    height: 5px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+.left-resume {
+  min-height: 300px;
+  width: 25%;
+  float: left;
+}
+.right-resume {
+  min-height: 300px;
+  width: 75%;
+  float: right;
+}
+
 /* Navigation */
 
 .navbar  { border: 0px; background-color: #222222; position: fixed; top: 50; right: 5%; width: 90px; z-index: 9999; }
