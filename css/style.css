@@ -27,19 +27,23 @@ h3 { font-size: 28px; }
   position: relative;
 }
 .container-contact1{
-  width: 800px;
   padding: 10px 10px;
-  margin-right: auto;
-  margin-left: auto;
+  width: 70%;
   float: left;
 }
-.container-contact2{
-  max-width: 320px;
-  padding: 10px 10px;
-  margin-right: auto;
-  margin-left: auto;
-  display: inline;
+.container-contact1sub{
+  width: 70%;
   float: right;
+}
+.container-contact2{
+  width: 30%;
+  padding: 10px 10px;
+  min-height: 1000px;
+  float: right;
+}
+.container-contact2sub{
+  margin-top: 50px;
+  float: left;
 }
 
 ul.img-list {
