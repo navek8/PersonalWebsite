@@ -27,8 +27,8 @@ function applyNavigation()
 {
 	applyClickEvent();
 	applyNavigationFixForPhone();
-	applyScrollSpy();
-	applyStickyNavigation();
+/*	applyScrollSpy();
+	applyStickyNavigation();*/
 }
 
 function applyClickEvent()
