@@ -116,8 +116,8 @@
 /* Component containers
 ----------------------------------*/
 .ui-widget {
-	font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
-	font-size: 1.1em;
+	font-weight: 300; 
+	font-family: 'Titillium Web';
 }
 .ui-widget .ui-widget {
 	font-size: 1em;
@@ -126,8 +126,8 @@
 .ui-widget select,
 .ui-widget textarea,
 .ui-widget button {
-	font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
-	font-size: 1em;
+	font-weight: 300; 
+	font-family: 'Titillium Web';
 }
 .ui-widget-content {
 	border: 1px solid #dddddd;
@@ -155,12 +155,12 @@
 	border: 1px solid #cccccc;
 	background: #ffffff url("images/ui-bg_glass_100_ffffff_1x400.png") 50% 50% repeat-x;
 	font-weight: bold;
-	color: #3163f4;
+	color: #00aeef;
 }
 .ui-state-default a,
 .ui-state-default a:link,
 .ui-state-default a:visited {
-	color: #3163f4;
+	color: #00aeef;
 	text-decoration: none;
 }
 .ui-state-hover,

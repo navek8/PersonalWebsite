@@ -1,16 +1,23 @@
 /* General Stuff */
-html, body { color: #434242; font-family: 'Open Sans', sans-serif !important; height: 100%; }
-body { background: #FFFFFF; font-size: 15px; line-height: 1.64; }
+html, body { color: #434242; font-weight: 300; font-family: 'Titillium Web', sans-serif !important; height: 100%; }
+body { font-size: 15px; line-height: 1.64; }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { font-family: 'Open Sans', sans-serif !important;}
-h1 { font-weight: 200; color: #3163f4;font-size: 54px; text-align: center; margin-bottom: 20px; text-shadow: 1px 1px #888888; }
-h3 { font-size: 22px; font-weight: 200; color: #3163f4; margin-top:0;}
-h4 { font-size: 18px; font-weight: 100;}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { font-family: 'Titillium Web', sans-serif !important; }
+h1 { font-weight: 600; color: #222222;font-size: 54px; text-align: center; margin-bottom: 40px;text-transform: uppercase;}
+h3 { font-size: 22px; font-weight: 600; color: #00aeef; margin-top:0;}
+h4 { font-size: 18px; font-weight: 600;}
 h5 { font-size: 15px; font-style: italic;}
 
 .background-white { background: #FFFFFF; }
-.background-grey { background: #DDDDDD; }
-
+.background-grey { background: #CCCCCC;}
+.background-updates { 
+  background-image: url(../images/bg-pattern3.jpg); 
+  background-repeat: repeat;
+}
+.background-contact { 
+  background-image: url(../images/bg-pattern4.png); 
+  background-repeat: repeat;
+}
 .container{
 	max-width: 1280px;
 	padding: 30px 50px;
@@ -23,9 +30,12 @@ h5 { font-size: 15px; font-style: italic;}
   padding: 30px 30px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 50px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   position: relative;
   overflow: hidden;
+  background-image: url(../images/paper.png); 
+  background-repeat: repeat;
 }
 .container-contact1{
   padding: 10px 10px;
@@ -96,7 +106,7 @@ text-align: left;
 display: inline;
 font-size: 24px;
 padding-left:55px;
-color: #3163f4;
+color: #00aeef;
 }
 div.r-profile:before {
   content:url(../images/resume-profile.png);
@@ -152,13 +162,15 @@ hr {
 
 /* Jumbotron */
 .jumbotron { 
-  background: url(../images/background1.jpg) no-repeat center center fixed; 
+  background-image: url(../images/background2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-.jumbotron .overlay { background-color: #222222; position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; opacity: 0.55; filter:alpha(opacity=55); z-index: 2; }
+/*.jumbotron .overlay { background-color: #222222; position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; opacity: 0.55; filter:alpha(opacity=55); z-index: 2; }*/
 .jumbotron .container { position: relative; top: 28%; z-index: 4; text-align: center; color:#FFFFFF;}
 .jumbotron .container * { text-align: center; color: #FFFFFF; }
 .jumbotron .container h1 { padding-bottom: 20px; border-bottom: 1px solid #FFFFFF; border-bottom-color: rgba(255,255,255,0.35); display: inline-block; }
