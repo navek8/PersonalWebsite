@@ -3,7 +3,8 @@ html, body { color: #434242; font-weight: 300; font-family: 'Titillium Web', san
 body { font-size: 15px; line-height: 1.64; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { font-family: 'Titillium Web', sans-serif !important; }
-h1 { font-weight: 600; color: #222222;font-size: 54px; text-align: center; margin-bottom: 40px;text-transform: uppercase;}
+h1 { font-weight: 600; color: #FFFFFF;font-size: 54px; text-align: center; margin-bottom: 10px;text-transform: uppercase;}
+h2 { font-weight: 600; color: #222222;font-size: 54px; text-align: center; margin-bottom: 40px;text-transform: uppercase;}
 h3 { font-size: 22px; font-weight: 600; color: #00aeef; margin-top:0;}
 h4 { font-size: 18px; font-weight: 600;}
 h5 { font-size: 15px; font-style: italic;}
@@ -55,6 +56,13 @@ h5 { font-size: 15px; font-style: italic;}
 .container-contact2sub{
   margin-top: 50px;
   float: left;
+}
+.topleftlogo:before {
+  content:url(../images/km_logo.png);
+  display: block;
+  position: fixed;
+  bottom: 10px;
+  right: 5px;
 }
 
 ul.img-list {
@@ -173,6 +181,6 @@ hr {
 /*.jumbotron .overlay { background-color: #222222; position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; opacity: 0.55; filter:alpha(opacity=55); z-index: 2; }*/
 .jumbotron .container { position: relative; top: 28%; z-index: 4; text-align: center; color:#FFFFFF;}
 .jumbotron .container * { text-align: center; color: #FFFFFF; }
-.jumbotron .container h1 { padding-bottom: 20px; border-bottom: 1px solid #FFFFFF; border-bottom-color: rgba(255,255,255,0.35); display: inline-block; }
+/*.jumbotron .container h1 { padding-bottom: 20px; border-bottom: 1px solid #FFFFFF; border-bottom-color: rgba(255,255,255,0.35); display: inline-block; }*/
 .jumbotron .container a { color: #DDDDDD;}
 .jumbotron .container .lead { font-size: 28px; }

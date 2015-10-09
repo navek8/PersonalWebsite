@@ -5,8 +5,8 @@
 	<!-- Stylesheets-->
 	<link type="text/css" rel="stylesheet" media="all" href="css/bootstrap.min.css" />
 	<link type="text/css" rel="stylesheet" media="all" href="css/style.css" />
-	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600,400,300' rel='stylesheet' type='text/css'>
 	<link href="css/jquery-ui.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:600,400,300' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script>
@@ -17,10 +17,10 @@
 
 		  ga('create', 'UA-48895318-1', 'auto');
 		  ga('send', 'pageview');
-</script>
-
+	</script>
 </head>
 <body data-spy="scroll" data-target="#navbar-example" class="fixed">
+<a class="topleftlogo" href="http://www.kevanmah.com"></a>
 <nav class="navbar navbar-default" id="navbar-example" role="navigation">
 	<ul class="nav navbar-nav">
 		<li class="active"><a href="#top">Home</a></li>
@@ -32,6 +32,8 @@
 </nav>
 <div id="top" class="jumbotron" data-position="center center" style="height: 1024px;">
 	<div class="container">
+		<img src="images/km_logo_white.png" height=75 width=75>
+		<h1>Supermah</h1>
 		<p>
 			This is the personal webpage of me, Kevan Mah. I'm using this website to brush up on basic web design (HTML, CSS, Javascript) and product design. I don't have a lot of time to work on this, but I try to complete a manageable chunk every now and then when I have an hour or two to spare.
 			<br>
@@ -45,27 +47,27 @@
 </div>
 
 
-<div id="projects" class="container"><h1>Projects</h1>
+<div id="projects" class="container"><h2>Projects</h2>
 	<ul class="img-list">
 		<li>
 			<a href="weddingwebsite/"><img src="images/wedding_preview.png"><span class="text-content"><span>Wedding Website</span></span></a>
 		</li>
 		<li>
-			<a href="/"><img src="images/empty_project.png"><span class="text-content"><span>Google Finance Overhaul</span></span></a>
+			<a href="http://www.letsvouch.com"><img src="images/LV.png"><span class="text-content"><span>Let's Vouch</span></span></a>
 		</li>	
 	</ul>
 	<ul class="img-list">
 		<li>
-			<a href="/"><img src="images/empty_project.png"><span class="text-content"><span>Photographic Timeline</span></span></a>
+			<a href="/"><img src="images/petpal.png"><span class="text-content"><span>PetPal - Coming soon!</span></span></a>
 		</li>
 		<li>
-			<a href="http://www.ifeelchatty.com"><img src="images/empty_project.png"><span class="text-content"><span>iFeelChatty.com</span></span></a>
+			<a href="/"><img src="images/empty_project.png"><span class="text-content"><span>TBD</span></span></a>
 		</li>	
 	</ul>	
 
 </div>
 <div class="background-updates">
-	<div id="updates" class="container"><h1>Updates</h1>
+	<div id="updates" class="container"><h2>Updates</h2>
 	<div id="accordion">
 		<h3>Monday August 24th, 2015</h3>
 		<div>
@@ -173,7 +175,7 @@
 	</div>
 </div>
 
-<div id="resume"  class="container"><h1>Resume</h1>
+<div id="resume"  class="container"><h2>Resume</h2>
 	<div class="container-resume">
 		<div class="r-profile"></div>
 		<h2 class="r-name">Kevan Mah</h2>
@@ -195,10 +197,9 @@
 			<ul>
 				<li>HTML</li>
 				<li>CSS</li>
-				<li>Javascript</li>
+				<li>JavaScript</li>
 				<li>C++</li>
-				<li>PHP</li>
-				<li>Ruby on Rails</li>				
+				<li>PHP</li>			
 			</ul>
 			<h3>Education</h3>
 			<ul>
@@ -212,17 +213,13 @@
 		</div>
 		<div class="right-resume">
 			<h3>Experience</h3>
-			<h4>PayPal - Sr. Technology Auditor</h4>
-			<h5>January 2015 - Present</h5>
+			<h4>PayPal (formerly eBay Inc.) - Sr. Technology Auditor</h4>
+			<h5>January 2014 - Present</h5>
 			<ul>
 				<li>Work with executives, architects, engineers, and other key personnel to understand the technology used at PayPal and provide an independent opinion of the technology risks.</li>
 				<li>Lead a team to perform risk-based audits in a variety of areas such as: Product Development, Server Scalability and Configuration, Vulnerability and Incident Management, Release and Change Management.</li>
 				<li>Mentor my direct reports and provide them opportunities to learn and grow their careers.
 				<li>Developed a strong understanding of payments, web development at a large scale, risk, and compliance.</li>
-			</ul>
-			<h4>eBay - Sr. Technology Auditor</h4>
-			<h5>January 2014 - January 2015 (transitioned to PayPal as part of the company spinoff)</h5>
-			<ul>
 				<li>Responsible for auditting key parts of eBay's technology infrastructure including production servers, cloud computing platform, financial reporting and controls, and mobile product development.</li>
 				<li>Received achievement award for passing CISA examination (top 5 percentile) and completing MBA within 6 months of start date.</li>
 			</ul>
@@ -244,7 +241,7 @@
 			<h5>September 2003 - September 2009</h5>
 			<ul>
 				<li>Designed and developed custom database software to monitor quality control of hardware production.</li>
-				<li>Supported and administered the databse for 30+ daily users. Ensured availability and scalability as the data grew.</li>
+				<li>Supported and administered the database for 30+ daily users. Ensured availability and scalability as the data grew.</li>
 				<li>Developed meaningful custom reports for management based on the collected data.</li>
 			</ul>
 		</div>
@@ -252,7 +249,7 @@
 </div>
 
 <div class="background-contact">
-	<div id="contact" class="container"><h1>Contact</h1>
+	<div id="contact" class="container"><h2>Contact</h2>
 		<div id="contact" class="container-contact1">
 			<div class="container-contact1sub">
 
